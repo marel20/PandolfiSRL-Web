@@ -1,0 +1,331 @@
+@keyframes scroll {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(46px);
+    }
+  }
+
+  /* backgrounds cards partners */
+  .blog-card:nth-child(1){
+    background: url('../assets/svg/chubut.svg') no-repeat center;
+    background-size: 100%;
+  }
+  .blog-card:nth-child(2){
+    background: url('../assets/svg/chaco.svg') no-repeat center;
+    background-size: 100%;
+  }
+  .blog-card:nth-child(3){
+    background: url('../assets/svg/chaco.svg') no-repeat center;
+    background-size: 100%;
+  }
+  .blog-card:nth-child(4){
+    background: url('../assets/svg/bsas.svg') no-repeat center;
+    background-size: 100%;
+  }
+  .blog-card:nth-child(5){
+    background: url('../assets/svg/mendoza.svg') no-repeat center;
+    background-size: 100%;
+  }
+  .blog-card:nth-child(6){
+    background: url('../assets/svg/salta.svg') no-repeat center;
+    background-size: 100%;
+  }
+  .blog-card:nth-child(7){
+    background: url('../assets/svg/bsas.svg') no-repeat center;
+    background-size: 100%;
+  }
+  .blog-card:nth-child(8){
+    background: url('../assets/svg/sanjuan.svg') no-repeat center;
+    background-size: 100%;
+  }
+  .blog-card:nth-child(9){
+    background: url('../assets/svg/mendoza.svg') no-repeat center;
+    background-size: 100%;
+  }
+  .blog-card:nth-child(10){
+    background: url('../assets/svg/rionegro.svg') no-repeat center;
+    background-size: 100%;
+  }
+  .blog-card:nth-child(11){
+    background: url('../assets/svg/entrerios.svg') no-repeat center;
+    background-size: 100%;
+  }
+  .blog-card:nth-child(12){
+    background: url('../assets/svg/mendoza.svg') no-repeat center;
+    background-size: 100%;
+  }
+  .blog-card:nth-child(13){
+    background: url('../assets/svg/santafe.svg') no-repeat center;
+    background-size: 100%;
+  }
+  .blog-card:nth-child(14){
+    background: url('../assets/svg/formosa.svg') no-repeat center;
+    background-size: 100%;
+  }
+  .blog-card:nth-child(15){
+    background: url('../assets/svg/rionegro.svg') no-repeat center;
+    background-size: 100%;
+  }
+
+  /* backgrounds cards products */
+
+  .atador-1 { 
+    background-image: url('../assets/img/KIT\ DE\ ATADOR\ A\ HILO.webp');
+  }
+  
+  .atador-2 { 
+    background-image: url('../assets/img/KIT\ DE\ ATADOR\ A\ HILO\(1\).webp');
+  }
+  
+  .atador-3 { 
+    background-image: url('../assets/img/KIT\ DE\ ATADOR\ A\ HILO\(2\).webp');
+  }
+  
+  .atador-4 { 
+    background-image: url('../assets/img/KIT\ DE\ ATADOR\ A\ HILO\(3\).webp');
+  }
+
+  .atadoradap-1 { 
+    background-image: url('../assets/img/KIT\ DE\ ATADOR\ A\ HILO.webp');
+  }
+  
+  .atadoradap-2 { 
+    background-image: url('../assets/img/KIT\ DE\ ATADOR\ A\ HILO\(1\).webp');
+  }
+  
+  .atadoradap-3 { 
+    background-image: url('../assets/img/KIT\ DE\ ATADOR\ A\ HILO\(2\).webp');
+  }
+  
+  .atadoradap-4 { 
+    background-image: url('../assets/img/KIT\ DE\ ATADOR\ A\ HILO\(3\).webp');
+  }
+  
+  .compact-1 { 
+    background-image: url('../assets/img/COMPACTADORA\ DE\ FARDOS\ PANDOLFI.webp');
+  }
+  
+  .compact-2 { 
+    background-image: url('../assets/img/COMPACTADORA\ DE\ FARDOS\ PANDOLFI\(1\).webp');
+  }
+  
+  .compact-3 { 
+    background-image: url('../assets/img/COMPACTADORA\ DE\ FARDOS\ PANDOLFI\(2\)_.webp');
+  }
+  
+  .compact-4 { 
+    background-image: url('../assets/img/COMPACTADORA\ DE\ FARDOS\ PANDOLFI\(3\).webp');
+  }
+  
+  .compact-5 { 
+    background-image: url('../assets/img/COMPACTADORA\ DE\ FARDOS\ PANDOLFI\(4\).webp');
+  }
+
+  .compact-6 { 
+    background-image: url('../assets/img/COMPACTADORA\ DE\ FARDOS\ PANDOLFI_.webp');
+  }
+  
+  .compact-7 { 
+    background-image: url('../assets/img/COMPACTADORA\ DE\ FARDOS\ PANDOLFI\(1\)_.webp');
+  }
+  
+  .compact-8 { 
+    background-image: url('../assets/img/COMPACTADORA\ DE\ FARDOS\ PANDOLFI\(2\).webp');
+  }
+  
+  .compact-9 { 
+    background-image: url('../assets/img/COMPACTADORA\ DE\ FARDOS\ PANDOLFI\(3\)_.webp');
+  }
+  
+  .compact-10 { 
+    background-image: url('../assets/img/COMPACTADORA\ DE\ FARDOS\ PANDOLFI\(4\)_.webp');
+  }
+  
+  .enfar-1 { 
+    background-image: url('../assets/img/ENFARDADORA\ PANDOLFI\ P600\ S3.webp');
+  }
+  
+  .enfar-2 { 
+    background-image: url('../assets/img/ENFARDADORA\ PANDOLFI\ P600\ S3\(1\).webp');
+  }
+  
+  .enfar-3 { 
+    background-image: url('../assets/img/ENFARDADORA\ PANDOLFI\ P600\ S3\(2\).webp');
+  }
+  
+  .enfar-4 { 
+    background-image: url('../assets/img/ENFARDADORA\ PANDOLFI\ P600\ S3\(3\).webp');
+  }
+  
+  .enfar-5 { 
+    background-image: url('../assets/img/ENFARDADORA\ PANDOLFI\ P600\ S3\(4\).webp');
+  }
+
+  .enfar-6 { 
+    background-image: url('../assets/img/ENFARDADORA\ PANDOLFI\ P600\ S3_.webp');
+  }
+  
+  .enfar-7 { 
+    background-image: url('../assets/img/ENFARDADORA\ PANDOLFI\ P600\ S3\(1\)_.webp');
+  }
+  
+  .enfar-8 { 
+    background-image: url('../assets/img/ENFARDADORA\ PANDOLFI\ P600\ S3\(2\)_.webp');
+  }
+  
+  .enfar-9 { 
+    background-image: url('../assets/img/ENFARDADORA\ PANDOLFI\ P600\ S3\(3\)_.webp');
+  }
+  
+  .enfar-10 { 
+    background-image: url('../assets/img/ENFARDADORA\ PANDOLFI\ P600\ S3\(4\)_.webp');
+  }
+
+  .rastrillo-1 { 
+    background-image: url('../assets/img/RASTRILLO.webp');
+  }
+  
+  .rastrillo-2 { 
+    background-image: url('../assets/img/RASTRILLO\(1\).webp');
+  }
+  
+  .rastrillo-3 { 
+    background-image: url('../assets/img/RASTRILLO\(2\).webp');
+  }
+  
+  .rastrillo-4 { 
+    background-image: url('../assets/img/RASTRILLO\(3\).webp');
+  }
+  
+  .rastrillo-5 { 
+    background-image: url('../assets/img/RASTRILLO\(4\).webp');
+  }
+
+  .segadora-1 { 
+    background-image: url('../assets/img/SEGADORA.webp');
+  }
+  
+  .segadora-2 { 
+    background-image: url('../assets/img/SEGADORA\(1\).webp');
+  }
+  
+  .segadora-3 { 
+    background-image: url('../assets/img/SEGADORA\(2\).webp');
+  }
+  
+  .segadora-4 { 
+    background-image: url('../assets/img/SEGADORA\(3\).webp');
+  }
+  
+  .segadora-5 { 
+    background-image: url('../assets/img/SEGADORA\(4\).webp');
+  }
+
+  .segadora-6 { 
+    background-image: url('../assets/img/SEGADORA\(5\).webp');
+  }
+
+
+  /* backgrounds cards repuestos */
+  .rep-card:nth-child(1){
+    background: url('../assets/img/REPUESTOS\ KIT\ ATADOR\ A\ HILO.png') no-repeat center;
+    background-size: 90%;
+  }
+  .rep-card:nth-child(2){
+    background: url('../assets/img/REPUESTOS\ KIT\ ATADOR\ A\ HILO\(1\).png') no-repeat center;
+    background-size: 90%;
+  }
+  .rep-card:nth-child(3){
+    background: url('../assets/img/REPUESTOS\ KIT\ ATADOR\ A\ HILO\(2\).png') no-repeat center;
+    background-size: 90%;
+  }
+  .rep-card:nth-child(4){
+    background: url('../assets/img/REPUESTOS\ KIT\ ATADOR\ A\ HILO\(3\).png') no-repeat center;
+    background-size: 90%;
+  }
+  .rep-card:nth-child(5){
+    background: url('../assets/img/REPUESTOS\ KIT\ ATADOR\ A\ HILO\(4\).png') no-repeat center;
+    background-size: 90%;
+  }
+  .rep-card:nth-child(6){
+    background: url('../assets/img/REPUESTOS\ KIT\ ATADOR\ A\ HILO\(5\).png') no-repeat center;
+    background-size: 90%;
+  }
+  .rep-card:nth-child(7){
+    background: url('../assets/img/REPUESTOS\ KIT\ ATADOR\ A\ HILO\(6\).png') no-repeat center;
+    background-size: 90%;
+  }
+  .rep-card:nth-child(8){
+    background: url('../assets/img/REPUESTOS\ KIT\ ATADOR\ A\ HILO\(7\).png') no-repeat center;
+    background-size: 90%;
+  }
+  .rep-card:nth-child(9){
+    background: url('../assets/img/REPUESTOS\ KIT\ ATADOR\ A\ HILO\(8\).png') no-repeat center;
+    background-size: 90%;
+  }
+  .rep-card:nth-child(10){
+    background: url('../assets/img/REPUESTOS\ KIT\ ATADOR\ A\ HILO\(9\).png') no-repeat center;
+    background-size: 90%;
+  }
+  .rep-card:nth-child(11){
+    background: url('../assets/img/REPUESTOS\ KIT\ ATADOR\ A\ HILO\(10\).png') no-repeat center;
+    background-size: 90%;
+  }
+  .rep-card:nth-child(12){
+    background: url('../assets/img/REPUESTOS\ KIT\ ATADOR\ A\ HILO\(11\).png') no-repeat center;
+    background-size: 90%;
+  }
+  .rep-card:nth-child(13){
+    background: url('../assets/img/REPUESTOS\ KIT\ ATADOR\ A\ HILO\(12\).png') no-repeat center;
+    background-size: 90%;
+  }
+  .rep-card:nth-child(14){
+    background: url('../assets/img/REPUESTOS\ KIT\ ATADOR\ A\ HILO\(13\).png') no-repeat center;
+    background-size: 90%;
+  }
+  .rep-card:nth-child(15){
+    background: url('../assets/img/REPUESTOS\ KIT\ ATADOR\ A\ HILO\(14\).png') no-repeat center;
+    background-size: 90%;
+  }
+  .rep-card:nth-child(16){
+    background: url('../assets/img/REPUESTOS\ KIT\ ATADOR\ A\ HILO\(15\).png') no-repeat center;
+    background-size: 90%;
+  }
+  .rep-card:nth-child(17){
+    background: url('../assets/img/REPUESTOS\ KIT\ ATADOR\ A\ HILO\(16\).png') no-repeat center;
+    background-size: 90%;
+  }
+  .rep-card:nth-child(18){
+    background: url('../assets/img/REPUESTOS\ KIT\ ATADOR\ A\ HILO\(17\).png') no-repeat center;
+    background-size: 90%;
+  }
+  .rep-card:nth-child(19){
+    background: url('../assets/img/REPUESTOS\ KIT\ ATADOR\ A\ HILO\(18\).png') no-repeat center;
+    background-size: 90%;
+  }
+  .rep-card:nth-child(20){
+    background: url('../assets/img/REPUESTOS\ KIT\ ATADOR\ A\ HILO\(19\).png') no-repeat center;
+    background-size: 90%;
+  }
+
+
+    /* backgrounds cards accesorios */
+    .acces-card:nth-child(1){
+      background: url('../assets/img/ACCESORIOS\ CONTADOR\ A\ GOLPES.png') no-repeat center;
+      background-size: 80%;
+    }
+    .acces-card:nth-child(2){
+      background: url('../assets/img/ACCESORIOS\ ELECTROVENTILADOR.png') no-repeat center;
+      background-size: 80%;
+    }
+    .acces-card:nth-child(3){
+      background: url('../assets/img/ACCESORIOS\ LUCES\ LED.png') no-repeat center;
+      background-size: 80%;
+    }
+    .acces-card:nth-child(4){
+      background: url('../assets/img/ACCESORIOS\ RUEDA\ .png') no-repeat center;
+      background-size: 80%;
+    }

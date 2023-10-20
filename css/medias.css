@@ -1,0 +1,307 @@
+/*----- Medias Queries -----*/
+@media (max-width: 889px){
+    .visible{
+        display: none !important;
+        visibility: hidden !important;
+    }
+    
+    .hidden{
+        display: block !important;
+        visibility: visible !important;
+    }
+
+    .hero{
+        margin-top: 15%;
+    }
+
+    .banner{
+        width: 94%;
+        background-size: contain;
+
+    }
+
+    .logo-slogan{
+        flex-direction: column;
+        justify-content: center;
+        gap: 25px;
+        margin: 0 auto;
+    }
+    .logo-slogan img{
+        width: 100%;
+        transform: rotate(0);
+    }
+    .logo-slogan img:hover{
+        transform: scale(1);
+    }
+    .logo-slogan span{
+        width: 90%;
+        font-size: 25px;
+    }
+
+    .menu_logo img{
+        padding: 10px;
+    }
+
+    .menu_hamburguer{
+        display: flex;
+    }
+
+    .menu_item{
+        --clip: 0;
+        overflow: hidden;
+    }
+
+    .menu_links{
+        position: fixed;
+        max-width: 70%;
+        width: 100%;
+        top: 100px;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(to right, var(--black), var(--red) , var(--yellow)) !important;  
+        box-shadow: 0 2px 10px #1c2e4cc0;
+        overflow-y: auto;
+        display: grid;
+        grid-auto-rows: max-content;
+        transform: translateX(100%);
+        margin-top: -0.2%;
+    }
+
+    .menu_links--show{
+        transform: unset;
+        width: 100%;
+    }
+
+    .menu_link{
+        padding: 1.5625rem 0;
+        padding-left: 1.875rem;
+        height: auto;
+        color: #FFFFFF;
+    }
+
+    .menu_arrow{
+        margin-left: auto;
+        margin-right: 1.25rem;
+        transform: rotate(180deg);
+    }
+    
+
+    .menu_nesting{
+        display: grid;
+        position: unset;
+        width: 100%;
+        transform: translateY(0);
+        height: 0;
+        transition: height .3s;
+    }
+
+    .menu_item:hover::before{
+        width: 0;
+    }
+
+    nav.active .menu_nesting{
+        background: none !important;
+        box-shadow: none !important;
+    }
+
+    .menu_link--inside{
+        width: 90%;
+        margin-left: auto;
+        border-left: .0625rem solid #FFFFFF;
+    }
+
+    section h2{
+        font-size: 25px !important;
+    }
+
+    .card-products, .card-products2{
+        flex-direction: column !important;
+    }
+    .card-products .cardd, .card-products2 .cardd{
+        width: 90% !important;
+    }
+    .card-products2 .card-background2{
+        height: 20vh;
+    }
+
+    .card-products2 .card-content h3{
+        font-size: 1.3rem !important;
+    }
+
+    .content-galery{
+        margin-top: 25% !important;
+        background-size: 70% !important;
+    }
+    
+    .text-products{
+        width: 90% !important;
+        padding: 20px !important;
+    }
+
+    .text-products p{
+        font-size: 15px !important;
+      }
+      .caract-gen p, .caract-gen i{
+        font-size: 15px !important;
+      }
+
+    #logo{
+        width: 40%;
+        margin-left: 30%;
+    }
+    
+    #logo2{
+        width: 75%;
+        margin-left: 20%;
+    }
+
+    .card-background2 img{
+        width: 70px;
+        margin-left: 0% !important;
+    }
+
+    .contact{
+        flex-direction: column;
+        gap: 90px;
+    }
+
+    .footer-logo img{
+        width: 70%;
+        margin: 5% auto;
+    }
+
+    .menu-footer{
+        display: flex;
+        gap: 15px;
+    }
+    .menu-footer a{
+        font-size: 13px;
+    }
+
+    .heading{
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .wrap{
+        width: 100%;
+    }
+
+    .container-all{
+        margin-top: 30%;
+    }
+    
+}
+
+
+@media (max-width: 1000px){
+    .card-products2{
+        flex-direction: column !important;
+    }
+    .card-products2 .cardd{
+        width: 90%;
+    }
+    .card-products2 .card-background2{
+        height: 20vh;
+      }
+    
+      .logo-slogan{
+        flex-direction: column;
+        justify-content: center;
+        gap: 25px;
+        margin: 0 auto;
+    }
+    .logo-slogan img{
+        width: 100%;
+        transform: rotate(0);
+    }
+    .logo-slogan img:hover{
+        transform: scale(1);
+    }
+    .logo-slogan span{
+        width: 90%;
+        font-size: 25px;
+    }
+
+    .menu_logo img{
+        padding: 10px;
+    }
+
+    .menu_hamburguer{
+        display: flex;
+    }
+
+    .menu_item{
+        --clip: 0;
+        overflow: hidden;
+    }
+
+    .menu_links{
+        position: fixed;
+        max-width: 70%;
+        width: 100%;
+        top: 100px;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(to right, var(--black), var(--red) , var(--yellow)) !important;  
+        box-shadow: 0 2px 10px #1c2e4cc0;
+        overflow-y: auto;
+        display: grid;
+        grid-auto-rows: max-content;
+        transform: translateX(100%);
+        margin-top: -0.2%;
+    }
+
+    .menu_links--show{
+        transform: unset;
+        width: 100%;
+    }
+
+    .menu_link{
+        padding: 1.5625rem 0;
+        padding-left: 1.875rem;
+        height: auto;
+        color: #FFFFFF;
+    }
+
+    .menu_arrow{
+        margin-left: auto;
+        margin-right: 1.25rem;
+        transform: rotate(180deg);
+    }
+    
+
+    .menu_nesting{
+        display: grid;
+        position: unset;
+        width: 100%;
+        transform: translateY(0);
+        height: 0;
+        transition: height .3s;
+    }
+
+    .menu_item:hover::before{
+        width: 0;
+    }
+
+    nav.active .menu_nesting{
+        background: none !important;
+        box-shadow: none !important;
+    }
+
+    .menu_link--inside{
+        width: 90%;
+        margin-left: auto;
+        border-left: .0625rem solid #FFFFFF;
+    }
+
+    #logo{
+        width: 40%;
+        margin-left: 20%;
+    }
+    
+    #logo2{
+        width: 55%;
+        margin-left: 20%;
+    }
+}
