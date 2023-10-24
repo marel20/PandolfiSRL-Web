@@ -114,10 +114,10 @@
         font-size: 25px !important;
     }
 
-    .card-products, .card-products2{
+    .card-products, .card-products2, .card-products3{
         flex-direction: column !important;
     }
-    .card-products .cardd, .card-products2 .cardd{
+    .card-products .cardd, .card-products2 .cardd, .card-products3 .cardd{
         width: 90% !important;
     }
     .card-products2 .card-background2{
@@ -157,7 +157,7 @@
 
     .card-background2 img{
         width: 70px;
-        margin-left: 0% !important;
+        margin-left: 10% !important;
     }
 
     .contact{
